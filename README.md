@@ -214,5 +214,18 @@ Infrastructure troubleshooting
 
 ---
 
+# Troubelshooting
+
+Problem:
+Reverse proxy returned 404 for /api/db
+
+Root Cause:
+Incorrect route prefix in nginx config
+
+Fix:
+Removed duplicated /api path in proxy_pass
+
+---
+
 # Creator
 Jared Wilson
