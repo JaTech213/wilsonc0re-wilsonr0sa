@@ -210,3 +210,10 @@ Gunicorn application server
 PostgreSQL configuration
 Network segmentation
 Infrastructure troubleshooting
+
+
+---
+
+# Creator
+Jared Wilson
+Dallas, Texas
